@@ -27,6 +27,15 @@ difference, not just recognise a name.
 - Exam-style formats: multiple choice, multi-select, sentence completion (dropdown), and true/false
   (the real exams' Yes/No statement items)
 
+## Cram sheets
+
+Two night-before revision documents live in `docs/`, one per new exam, written from the same
+research as the question banks: every domain of the outline, comparison tables, the numbers, a
+"if the question says… pick…" mapping table, a rename table, and a last-30-minutes checklist.
+
+- [`docs/SC-900-cram.md`](docs/SC-900-cram.md)
+- [`docs/AB-900-cram.md`](docs/AB-900-cram.md)
+
 ## Topics
 
 ### SC-900
@@ -99,6 +108,8 @@ questions.js          AI-901 question bank
 sc900-questions.js    SC-900 question bank
 ab900-questions.js    AB-900 question bank
 app.js                quiz logic, exam tabs, progress, scoring
+docs/SC-900-cram.md   SC-900 cram sheet
+docs/AB-900-cram.md   AB-900 cram sheet
 ```
 
 Each bank is a plain array of `{ id, topic, tag, q, options, answer, why, format }` objects, so
