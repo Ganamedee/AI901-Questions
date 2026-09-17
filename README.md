@@ -35,6 +35,7 @@ research as the question banks: every domain of the outline, comparison tables, 
 
 - [`docs/SC-900-cram.md`](docs/SC-900-cram.md)
 - [`docs/AB-900-cram.md`](docs/AB-900-cram.md)
+- [`docs/Rapid-cram-SC900-AB900.md`](docs/Rapid-cram-SC900-AB900.md) — the 20-minute version of both
 
 ## Topics
 
@@ -110,6 +111,7 @@ ab900-questions.js    AB-900 question bank
 app.js                quiz logic, exam tabs, progress, scoring
 docs/SC-900-cram.md   SC-900 cram sheet
 docs/AB-900-cram.md   AB-900 cram sheet
+docs/Rapid-cram-SC900-AB900.md  short version of both
 ```
 
 Each bank is a plain array of `{ id, topic, tag, q, options, answer, why, format }` objects, so
